@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(30deg, #9c77df 50%, #e2e4ff 50%);
+  z-index: -1;
+  height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+  margin: 70px auto;
+}
+.heading h1 {
+  text-align: center;
+  margin: 0px auto;
+  background-color: #9c77df;
+  max-width: 400px;
+  color: #e2e4ff;
+  padding: 5px 5px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 40px;
+}
+.box {
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.267);
+}
+.item {
+  background-color: white;
+}
+.item p {
+  display: initial;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.items {
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.185);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+}
+.items p {
+  margin-left: 42px;
+  font-size: 25px;
+  width: 500px;
+}
+input[type="checkbox"] {
+  margin-left: 20px;
+}
+form {
+  margin-top: 20px;
+}
+form input {
+  width: 250px;
+  padding: 8px;
+  margin-left: 30px;
+}
+form button {
+  width: 35px;
+  height: 35px;
+  background-color: #9c77df;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+}

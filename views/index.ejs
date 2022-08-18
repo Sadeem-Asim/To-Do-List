@@ -1,0 +1,38 @@
+S<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>To Do List v1</title>
+  </head>
+  <body>
+    <!-- use Logic control flow statements in js file . html is for content . Thank You! -->
+    <!-- <% if(kindOfDay === "saturday"|| kindOfDay === "sunday"){ %>
+    <h1 style="color: blue">It's a <%= kindOfDay %> !</h1>
+    <% }else{ %>
+    <h1 style="color: purple">It's a <%= kindOfDay %> !</h1>
+    <% } %> -->
+    <div class="container">
+      <div class="heading">
+        <h1><%= kindOfDay %></h1>
+      </div>
+      <div class="box">
+        <div class="item">
+          <% for( var i = 0 ; i < newItem.length ; i++){ %>
+          <div class="items">
+            <input type="checkbox" />
+            <p><%= newItem[i] %></p>
+            <% } %>
+          </div>
+        </div>
+      </div>
+      <form class="form" action="/" method="post">
+        <input type="text" name="input1" placeholder="New Item" />
+        <button type="submit" name="add">+</button>
+        <button onclick="Delete()" type="menu" name="remove">-</button>
+      </form>
+    </div>
+  </body>
+</html>
